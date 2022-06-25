@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-25T17:41:10" hostname="LAPTOP-60KTD0SH" time="1.005">
+  <properties/>
+  <testcase name="loginNegativeTestsWrongEmail" classname="tests.LoginTests" time="1.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1656178866783	geckodriver	INFO	Listening on 127.0.0.1:57981
+1656178867634	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55829" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://localhost:55829/" "-no-remote" "-profile" "C:\\Users\\alexa\\AppData\\Local\\Temp\\rust_mozprofileUPJa80"
+1656178868000	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55829
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\alexa\\AppData\\Local\\Temp\\rust_mozprofileUPJa80\\search.json.mozlz4", (void 0)))
+1656178869952	Marionette	INFO	Listening on port 63395
+Read port: 63395
+DevTools listening on ws://localhost:55829/devtools/browser/cfd47bc9-90a6-4b23-bba4-eadd4da0be84
+1656178869986	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jun 25, 2022 8:41:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+1656178871949	Marionette	INFO	Stopped listening on port 63395
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 694: TypeError: this.tablesData[table] is undefined
+]]></system-err>
+</testsuite>
