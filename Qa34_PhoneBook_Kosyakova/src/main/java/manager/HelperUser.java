@@ -11,7 +11,7 @@ public class HelperUser extends HelperBase {
     }
 
     public void openLoginRegistrationForm() {
-        WebElement loginTab = wd.findElement(By.cssSelector("a[href='/login?url=%2Fsearch']"));
+        WebElement loginTab = wd.findElement(By.cssSelector("a[href='/login']"));
         loginTab.click();
     }
 
