@@ -8,14 +8,15 @@ public class LoginTests extends TestBase {
     @BeforeMethod
     public void preCondition() {
         if(app.getHelperUser().isLogged()){
-            app.getHelperUser().logOut();
+            app.getHelperUser().logout();
         }
+
     }
 
 
     // success login :
     @Test
-    public void loginSuccess() {
+    public void loginASuccess() {
 
         // 3.open form
         app.getHelperUser().openLoginRegistrationForm();

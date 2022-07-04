@@ -34,13 +34,13 @@ public class HelperUser extends HelperBase {
         type(By.xpath("//input[2]"), password);
     }
 
-    public boolean isLogged() 
-    {
-        List<WebElement> list =wd.findElements(By.xpath("//button[text()='Sign Out']"));
+    public boolean isLogged() {
+        // sign out present? --> logged
+        List<WebElement > list =wd.findElements(By.xpath("//button[text()='Sign Out']"));
         return list.size()>0;
     }
 
-    public void logOut() {
+    public void logout() {
         click(By.xpath("//button[text()='Sign Out']"));
     }
 }
