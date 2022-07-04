@@ -30,7 +30,7 @@ public class LoginTests extends TestBase {
 
     // login negative
     @Test
-    public void loginNegativeTestsWrongEmail() { 
+    public void loginNegativeTestsWrongEmail() {
 
         // 3.open form
         app.getHelperUser().openLoginRegistrationForm();
