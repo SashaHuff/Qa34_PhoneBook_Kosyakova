@@ -8,7 +8,7 @@ public class RegistrationTests extends TestBase
     public void registrationSuccess()
     {
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("Test123@gmail.com","Ttest123$");
+        app.getHelperUser().fillLoginRegistrationForm("Test1234@gmail.com","Ttest1234$");
         app.getHelperUser().submitRegistration();
     }
 }

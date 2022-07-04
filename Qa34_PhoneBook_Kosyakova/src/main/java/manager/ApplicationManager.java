@@ -1,6 +1,7 @@
 package manager;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
@@ -12,7 +13,7 @@ public class ApplicationManager
 
     public void init()
     {
-        wd = new FirefoxDriver();
+        wd = new ChromeDriver();
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/");

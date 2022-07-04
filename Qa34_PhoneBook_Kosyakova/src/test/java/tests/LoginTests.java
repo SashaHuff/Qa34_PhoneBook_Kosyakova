@@ -1,12 +1,21 @@
 package tests;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase {
+    @BeforeMethod
+    public void preCondition() {
+        if(app.getHelperUser().isLogged()){
+            app.getHelperUser().logOut();
+        }
+    }
+
+
     // success login :
     @Test
-    public void successLogin() {
+    public void loginSuccess() {
 
         // 3.open form
         app.getHelperUser().openLoginRegistrationForm();
@@ -21,7 +30,7 @@ public class LoginTests extends TestBase {
 
     // login negative
     @Test
-    public void loginNegativeTestsWrongEmail() {
+    public void loginNegativeTestsWrongEmail() { 
 
         // 3.open form
         app.getHelperUser().openLoginRegistrationForm();
