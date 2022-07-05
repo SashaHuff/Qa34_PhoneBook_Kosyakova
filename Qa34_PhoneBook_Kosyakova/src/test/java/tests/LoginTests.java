@@ -1,4 +1,5 @@
 package tests;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -31,5 +32,12 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(app.getHelperUser().isAlertDisplayed());
         Assert.assertTrue(app.getHelperUser().isErrorFormatDisplayed());
 
+    }
+    @Test
+    public void loginSuccessNew ()
+    {
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm("Test1234@gmail.com","Ttest1243$");
+        app.getHelperUser().submitRegistration();
     }
 }
