@@ -30,7 +30,7 @@ public class LoginTests extends TestBase {
         app.getHelperUser().submitLogin();
         Assert.assertFalse(app.getHelperUser().isLogged());
         Assert.assertTrue(app.getHelperUser().isAlertDisplayed());
-        Assert.assertTrue();
+        Assert.assertTrue(app.getHelperUser().isErrorFormatDisplayed());
 
     }
 }
