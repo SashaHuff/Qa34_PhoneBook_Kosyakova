@@ -1,6 +1,5 @@
 package tests;
-
-import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -8,24 +7,17 @@ public class LoginTests extends TestBase {
     @BeforeMethod
     public void preCondition() {
         if(app.getHelperUser().isLogged()){
-            app.getHelperUser().logout();
+            app.getHelperUser().logOut();
         }
 
     }
-
-
-    // success login :
     @Test
-    public void loginASuccess() {
+    public void loginSuccess() {
 
-        // 3.open form
         app.getHelperUser().openLoginRegistrationForm();
-        // 4.fill form + valid data
-        app.getHelperUser().fillLoginRegistrationForm("Test123@gmail.com", "Ttest123$");
-        // 5.submit login
+        app.getHelperUser().fillLoginRegistrationForm("Test1234@gmail.com", "Ttest1243$");
         app.getHelperUser().submitLogin();
-        ;
-        // 6.Assert ( is login success?)   logout present?PRESENT
+        Assert.assertTrue(app.getHelperUser().isLogged());
 
     }
 
@@ -33,13 +25,12 @@ public class LoginTests extends TestBase {
     @Test
     public void loginNegativeTestsWrongEmail() {
 
-        // 3.open form
         app.getHelperUser().openLoginRegistrationForm();
-        // 4.fill form + invalid data
         app.getHelperUser().fillLoginRegistrationForm("Test123gmail.com", "Ttest123$");
-        // 5.submit login
         app.getHelperUser().submitLogin();
-        // 6.Assert ( is login unsuccessful?)   logout present? NOT
+        Assert.assertFalse(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isAlertDisplayed());
+        Assert.assertTrue();
 
     }
 }
