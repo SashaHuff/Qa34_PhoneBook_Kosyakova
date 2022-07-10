@@ -34,10 +34,10 @@ public class LoginTests extends TestBase {
 
     }
     @Test
-    public void loginSuccessNew ()
+    public void loginSuccessN()
     {
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("Test1234@gmail.com","Ttest1243$");
-        app.getHelperUser().submitRegistration();
+        app.getHelperUser().fillLoginRegistrationForm("Test5674@gmail.com","Ttest5674$");
+        app.getHelperUser().submitLogin();
     }
 }
