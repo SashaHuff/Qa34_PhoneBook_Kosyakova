@@ -18,6 +18,8 @@ public class LoginTests extends TestBase {
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm("Test1234@gmail.com", "Ttest1243$");
         app.getHelperUser().submitLogin();
+        app.getHelperUser().pause(6000);
+
 
     }
 
@@ -37,7 +39,10 @@ public class LoginTests extends TestBase {
     public void loginSuccessN()
     {
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("Test5674@gmail.com","Ttest5674$");
+        app.getHelperUser().fillLoginRegistrationForm("noa@gmail.com","Nnoa12345$");
         app.getHelperUser().submitLogin();
+        app.getHelperUser().pause(6000);
+
+
     }
 }
