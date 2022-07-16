@@ -79,4 +79,10 @@ public class HelperUser extends HelperBase {
  //       alert.dismiss(); // click CANCEL button
         return errorText.contains("Wrong email or password format"); //equals - full text of alert
     }
+    public void login(User user) {
+        openLoginRegistrationForm();
+        type(By.xpath("//input[1]"), user.getEmail());
+        type(By.xpath("//input[2]"), user.getPassword());
+        submitLogin();
+    }
 }

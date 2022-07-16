@@ -16,7 +16,7 @@ public class LoginTests extends TestBase {
     public void loginSuccess() {
 
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("Test1234@gmail.com", "Ttest1243$");
+        app.getHelperUser().fillLoginRegistrationForm("Test1234@gmail.com", "Ttest1234$");
         app.getHelperUser().submitLogin();
         app.getHelperUser().pause(6000);
 
@@ -35,11 +35,11 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(app.getHelperUser().isErrorFormatDisplayed());
 
     }
-  /*  @Test
+    @Test
     public void loginSuccessN()
     {
         app.getHelperUser().openLoginRegistrationForm();
-        app.getHelperUser().fillLoginRegistrationForm("noa@gmail.com","Nnoa12345$");
+        app.getHelperUser().fillLoginRegistrationForm("Test1234@gmail.com","Ttest1234$");
         app.getHelperUser().submitLogin();
         app.getHelperUser().pause(6000);
 
@@ -47,6 +47,6 @@ public class LoginTests extends TestBase {
 
 
     }
-    */
+
 
 }
