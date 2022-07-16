@@ -35,7 +35,7 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(app.getHelperUser().isErrorFormatDisplayed());
 
     }
-    @Test
+  /*  @Test
     public void loginSuccessN()
     {
         app.getHelperUser().openLoginRegistrationForm();
@@ -44,5 +44,9 @@ public class LoginTests extends TestBase {
         app.getHelperUser().pause(6000);
 
 
+
+
     }
+    */
+
 }
