@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-19T07:18:58" hostname="LAPTOP-60KTD0SH" time="6.555">
+  <properties/>
+  <testcase name="loginSuccessN" classname="tests.LoginTests" time="6.555"/>
+  <system-out><![CDATA[10:18:53.598  INFO  tests.TestBase - Start method with name --> loginSuccessN
+10:18:58.662  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/login']
+10:18:58.695  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/login']
+10:18:58.781  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[1]
+10:18:58.819  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //input[1]
+10:18:58.996  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[2]
+10:18:59.029  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //input[2]
+10:18:59.146  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[1]
+10:18:59.171  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[1]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
