@@ -1,0 +1,21 @@
+14:16:03.338  INFO  manager.ApplicationManager - All test run in firefox browser
+14:16:05.143  INFO  manager.ApplicationManager - current url ---->https://contacts-app.tobbymarshall815.vercel.app/home
+14:16:05.192  INFO  tests.TestBase - Start method with name --> loginNegativeTestsWrongEmail
+14:16:10.223  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/login']
+14:16:10.270  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/login']
+14:16:10.539  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[1]
+14:16:10.577  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //input[1]
+14:16:10.878  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[2]
+14:16:10.894  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //input[2]
+14:16:11.164  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[1]
+14:16:11.194  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[1]
+14:16:11.426  INFO  tests.TestBase - Start method with name --> loginSuccess
+14:16:12.128  INFO  manager.MyListener - The name of method with error is --> public abstract java.util.List org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)
+14:16:12.128  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.WebDriverException: Failed to interpret value as array
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [bbc7b9ab-c41f-4a61-bdcd-44158969e11f, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0.1, moz:accessibilityChecks: false, moz:buildID: 20220729222726, moz:debuggerAddress: localhost:60312, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6376, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60312/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bbc7b9ab-c41f-4a61-bdcd-44158969e11f
+14:16:12.128  INFO  tests.TestBase - Start method with name --> loginSuccessN

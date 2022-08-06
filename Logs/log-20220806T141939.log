@@ -1,0 +1,19 @@
+14:19:44.980  INFO  manager.ApplicationManager - All test run in firefox browser
+14:19:46.214  INFO  manager.ApplicationManager - current url ---->https://contacts-app.tobbymarshall815.vercel.app/home
+14:19:46.268  INFO  tests.TestBase - Start method with name --> loginNegativeTestsWrongEmail
+14:19:51.315  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/login']
+14:19:51.350  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/login']
+14:19:51.597  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[1]
+14:19:51.634  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //input[1]
+14:19:51.951  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[2]
+14:19:51.967  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //input[2]
+14:19:58.236  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[1]
+14:19:58.268  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[1]
+14:19:59.207  INFO  manager.MyListener - The name of method with error is --> public abstract java.util.List org.openqa.selenium.WebDriver.findElements(org.openqa.selenium.By)
+14:19:59.223  INFO  manager.MyListener - Houston, we have a problem org.openqa.selenium.WebDriverException: Failed to interpret value as array
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-31QDJF0', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [23aed818-95f4-4653-95cf-9593e5a2c8e9, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0.1, moz:accessibilityChecks: false, moz:buildID: 20220729222726, moz:debuggerAddress: localhost:55084, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20276, moz:profile: C:\Users\alexa\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55084/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 23aed818-95f4-4653-95cf-9593e5a2c8e9
