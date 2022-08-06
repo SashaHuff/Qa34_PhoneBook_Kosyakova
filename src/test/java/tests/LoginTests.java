@@ -12,7 +12,7 @@ public class LoginTests extends TestBase {
         }
 
     }
-    @Test
+    @Test (groups = {"web"})
     public void loginSuccess() {
 
         app.getHelperUser().openLoginRegistrationForm();

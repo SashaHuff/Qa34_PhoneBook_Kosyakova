@@ -1,0 +1,31 @@
+19:32:56.495  INFO  manager.ApplicationManager - All test run in chrome browser
+19:32:57.396  INFO  manager.ApplicationManager - current url ---->https://contacts-app.tobbymarshall815.vercel.app/home
+19:32:57.435  INFO  tests.TestBase - Start method with name --> loginNegativeTestsWrongEmail
+19:33:02.514  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/login']
+19:33:02.550  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/login']
+19:33:02.646  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[1]
+19:33:02.670  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //input[1]
+19:33:02.845  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[2]
+19:33:02.892  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //input[2]
+19:33:03.043  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[1]
+19:33:03.070  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[1]
+19:33:03.923  INFO  tests.TestBase - Start method with name --> loginSuccess
+19:33:08.949  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/login']
+19:33:08.985  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/login']
+19:33:09.049  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[1]
+19:33:09.073  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //input[1]
+19:33:09.223  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[2]
+19:33:09.243  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //input[2]
+19:33:09.382  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[1]
+19:33:09.407  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[1]
+19:33:15.453  INFO  tests.TestBase - Start method with name --> loginSuccessN
+19:33:15.487  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[text()='Sign Out']
+19:33:15.515  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[text()='Sign Out']
+19:33:15.573  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/login']
+19:33:15.594  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/login']
+19:33:15.639  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[1]
+19:33:15.658  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //input[1]
+19:33:15.780  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[2]
+19:33:15.800  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //input[2]
+19:33:15.916  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[1]
+19:33:15.942  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[1]

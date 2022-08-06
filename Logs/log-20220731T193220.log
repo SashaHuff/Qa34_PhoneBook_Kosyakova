@@ -1,0 +1,29 @@
+19:32:24.122  INFO  manager.ApplicationManager - All test run in chrome browser
+19:32:25.036  INFO  manager.ApplicationManager - current url ---->https://contacts-app.tobbymarshall815.vercel.app/home
+19:32:25.126  INFO  tests.TestBase - Start method with name --> addNewContactSuccess
+19:32:30.160  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: a[href='/login']
+19:32:30.197  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: a[href='/login']
+19:32:30.276  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[1]
+19:32:30.304  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //input[1]
+19:32:30.455  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //input[2]
+19:32:30.495  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //input[2]
+19:32:30.622  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //button[1]
+19:32:30.649  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[1]
+19:32:31.211  INFO  manager.MyListener - WebDriver start find element -->By.xpath: //a[text()='ADD']
+19:32:31.425  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //a[text()='ADD']
+19:32:31.493  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Name']
+19:32:31.524  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: [placeholder='Name']
+19:32:31.643  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Last Name']
+19:32:31.673  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: [placeholder='Last Name']
+19:32:31.775  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Phone']
+19:32:31.797  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: [placeholder='Phone']
+19:32:31.911  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='email']
+19:32:31.933  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: [placeholder='email']
+19:32:32.064  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='Address']
+19:32:32.091  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: [placeholder='Address']
+19:32:32.214  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='description']
+19:32:32.243  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: [placeholder='description']
+19:32:32.370  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: [placeholder='description']
+19:32:32.393  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: [placeholder='description']
+19:32:32.419  INFO  manager.MyListener - WebDriver start find element -->By.cssSelector: .add_form__2rsm2 button
+19:32:32.440  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .add_form__2rsm2 button
